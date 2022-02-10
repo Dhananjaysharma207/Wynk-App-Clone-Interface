@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans:ital,wght@0,300;1,300&family=Nanum+Myeongjo&family=PT+Sans+Narrow&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans:ital,wght@0,300;1,300&family=Nanum+Myeongjo&family=Oswald:wght@300&family=PT+Sans+Narrow&family=Redressed&display=swap');
+
+body{
+    background-color: #FCF3CF ;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 63px;
+    background-color: black;
+    color:white;
+}
+nav ul li{
+    padding: 0 15px;
+}
+.brand img{
+    width: 250px;
+    
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: indianred;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 50px;
+    background-image: url("b2.jpg");
+}
+.songList h1{
+    margin: 0 10px;
+    top: 5px;
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 65px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 5px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 74px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: #B9FFFF;
+    color: black;
+    font-weight: bold;
+    margin: 12px 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.songItem img{
+    width:25px; 
+    margin: 0 23px;
+    border-radius: 80%;
+    margin: 5px 10px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 6vw;
+    top: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.1s ease-in;
+}
+@media only screen and (max-width: 5000px) {
+    body {
+        background-color: red;
+    }
+}
